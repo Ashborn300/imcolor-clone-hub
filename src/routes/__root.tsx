@@ -72,19 +72,42 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "IM COLOR sarl — Peinture & décoration à Kinshasa" },
+      {
+        name: "description",
+        content:
+          "IM COLOR sarl, leader de la peinture professionnelle à Kinshasa : peinture intérieure et extérieure, décoration, faux plafonds, climatisation et rénovation. Devis gratuit.",
+      },
+      { name: "author", content: "IM COLOR sarl" },
+      { property: "og:site_name", content: "IM COLOR sarl" },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:locale", content: "fr_FR" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "theme-color", content: "#F26B1F" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/jpeg", href: "/favicon.jpg" },
+      { rel: "apple-touch-icon", href: "/favicon.jpg" },
+    ],
+    scripts: [
       {
-        rel: "stylesheet",
-        href: appCss,
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "IM COLOR sarl",
+          url: "https://imcolor.lovable.app",
+          logo: "https://imcolor.lovable.app/favicon.jpg",
+          description:
+            "Entreprise spécialisée en peinture professionnelle, décoration et aménagement intérieur à Kinshasa, RDC.",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Kinshasa",
+            addressCountry: "CD",
+          },
+          areaServed: { "@type": "Country", name: "République Démocratique du Congo" },
+        }),
       },
     ],
   }),
@@ -96,7 +119,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <HeadContent />
       </head>

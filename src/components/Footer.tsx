@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Link } from '@tanstack/react-router';
 const Footer = () => {
   return <footer className="bg-imcolor-dark text-white py-16">
       <div className="container mx-auto px-4">
@@ -20,12 +21,12 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Nos Services</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-primary transition-colors">Construction</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Architecture</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Travaux Publics</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Design Intérieur</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Modélisation 3D</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Peinture IM COLOR sarl</a></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Construction</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Architecture</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Travaux Publics</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Design Intérieur</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Modélisation 3D</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Peinture IM COLOR sarl</Link></li>
             </ul>
           </div>
 
@@ -33,12 +34,12 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Liens Rapides</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#accueil" className="hover:text-primary transition-colors">Accueil</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Services</a></li>
-              <li><a href="#apropos" className="hover:text-primary transition-colors">À propos</a></li>
-              <li><a href="#projets" className="hover:text-primary transition-colors">Projets</a></li>
-              <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Devis Gratuit</a></li>
+              <li><Link to="/" className="hover:text-primary transition-colors">Accueil</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Services</Link></li>
+              <li><Link to="/about" className="hover:text-primary transition-colors">À propos</Link></li>
+              <li><Link to="/realizations" className="hover:text-primary transition-colors">Réalisations</Link></li>
+              <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link to="/contact" className="hover:text-primary transition-colors">Devis Gratuit</Link></li>
             </ul>
           </div>
 

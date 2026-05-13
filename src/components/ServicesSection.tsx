@@ -17,8 +17,8 @@ import plumbingWorkImage from '@/assets/plumbing-work.jpg';
 const services = [
   {
     title: "Peinture Professionnelle Kinshasa",
-    description: "Nos peintres professionnels à Kinshasa réalisent tous vos travaux de peinture avec les meilleurs produits IM COLOR originaux.",
-    features: ["Peinture intérieure et extérieure", "Peinture de rénovation", "Peinture d'immeuble", "Peinture des maisons et espaces de travail", "Produits de peinture IM COLOR de qualité"],
+    description: "Nos peintres professionnels à Kinshasa réalisent tous vos travaux de peinture avec les meilleurs produits IM COLOR sarl originaux.",
+    features: ["Peinture intérieure et extérieure", "Peinture de rénovation", "Peinture d'immeuble", "Peinture des maisons et espaces de travail", "Produits de peinture IM COLOR sarl de qualité"],
     image: professionalPaintingImage,
     link: "/services"
   },
@@ -80,7 +80,7 @@ const services = [
   },
   {
     title: "Vente Pots de Peinture",
-    description: "Peintures IM COLOR de haute qualité pour tous types de surfaces et projets.",
+    description: "Peintures IM COLOR sarl de haute qualité pour tous types de surfaces et projets.",
     features: ["Peinture acrylique", "Peinture mate", "20L et autres formats", "Finitions professionnelles"],
     image: paintBucketsImage,
     link: "/services/pots-peinture"
@@ -123,7 +123,7 @@ const ServicesSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">Nos Services de Peinture et Construction à Kinshasa</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            <strong>IM COLOR Kinshasa</strong> vous offre une gamme complète de services : <strong>peinture professionnelle</strong>, construction, rénovation et aménagement. Nos <strong>peintres à Kinshasa</strong> sont à votre service pour tous vos projets.
+            <strong>IM COLOR sarl</strong> vous offre une gamme complète de services : <strong>peinture professionnelle</strong>, construction, rénovation et aménagement. Nos <strong>peintres à Kinshasa</strong> sont à votre service pour tous vos projets.
           </p>
         </div>
 

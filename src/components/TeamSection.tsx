@@ -34,7 +34,7 @@ const TeamSection = () => {
             Notre Équipe de Peintres Professionnels à Kinshasa
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Les <strong>peintres IM COLOR à Kinshasa</strong> : une équipe d'experts passionnés et qualifiés, dédiée à la réalisation de vos projets de <strong>peinture</strong> et construction avec le plus haut niveau de professionnalisme.
+            Les <strong>peintres IM COLOR sarl à Kinshasa</strong> : une équipe d'experts passionnés et qualifiés, dédiée à la réalisation de vos projets de <strong>peinture</strong> et construction avec le plus haut niveau de professionnalisme.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ const TeamSection = () => {
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
                 src={teamImage} 
-                alt="Équipe de professionnels IM COLOR en tenues de sécurité"
+                alt="Équipe de professionnels IM COLOR sarl en tenues de sécurité"
                 className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
@@ -63,7 +63,7 @@ const TeamSection = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">
-                Pourquoi choisir nos peintres IM COLOR ?
+                Pourquoi choisir nos peintres IM COLOR sarl ?
               </h3>
               <p className="text-muted-foreground text-lg mb-8">
                 Nos <strong>peintres professionnels à Kinshasa</strong> combinent expertise technique, passion du métier et engagement 

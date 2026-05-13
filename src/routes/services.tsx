@@ -7,9 +7,9 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Nos services — IM COLOR" },
+      { title: "Nos services — IM COLOR sarl" },
       { name: "description", content: "Peinture, décoration, faux plafonds, climatisation et plus." },
-      { property: "og:title", content: "Nos services — IM COLOR" },
+      { property: "og:title", content: "Nos services — IM COLOR sarl" },
       { property: "og:description", content: "Peinture, décoration, faux plafonds, climatisation et plus." },
     ],
   }),

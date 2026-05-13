@@ -9,7 +9,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">IC</span>
               </div>
-              <span className="text-xl font-bold">IM COLOR</span>
+              <span className="text-xl font-bold">IM COLOR sarl</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
               Experts en construction, architecture et travaux publics à Kinshasa. Excellence, innovation et qualité depuis plus de 10 ans.
@@ -25,7 +25,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-primary transition-colors">Travaux Publics</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Design Intérieur</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Modélisation 3D</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Peinture IM COLOR</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Peinture IM COLOR sarl</a></li>
             </ul>
           </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">© 2025 IM COLOR. Tous droits réservés.</p>
+            <p className="text-gray-400 text-sm">© 2025 IM COLOR sarl. Tous droits réservés.</p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-primary transition-colors">Mentions légales</a>
               <a href="#" className="hover:text-primary transition-colors">Politique de confidentialité</a>

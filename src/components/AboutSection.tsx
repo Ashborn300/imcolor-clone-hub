@@ -42,9 +42,9 @@ const AboutSection = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-foreground">À propos d'IM COLOR Kinshasa</h2>
+              <h2 className="text-4xl font-bold text-foreground">À propos d'IM COLOR sarl</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Depuis plus de 10 ans, <strong>IM COLOR</strong> s'impose comme leader de la <strong>peinture à Kinshasa</strong> et dans toute la République Démocratique du Congo. Nos <strong>peintres professionnels</strong> sont reconnus pour leur expertise et leur savoir-faire.
+                Depuis plus de 10 ans, <strong>IM COLOR sarl</strong> s'impose comme leader de la <strong>peinture à Kinshasa</strong> et dans toute la République Démocratique du Congo. Nos <strong>peintres professionnels</strong> sont reconnus pour leur expertise et leur savoir-faire.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Notre entreprise de <strong>peinture Kinshasa</strong> a été fondée avec une vision claire : offrir des services de peinture et construction de qualité supérieure tout en respectant les délais, les budgets et les standards internationaux. Nous combinons l'expertise locale avec les meilleures pratiques internationales.
@@ -81,7 +81,7 @@ const AboutSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={handshakeImage} 
-                alt="Partenariat professionnel IM COLOR"
+                alt="Partenariat professionnel IM COLOR sarl"
                 className="w-full h-auto object-cover"
               />
             </div>

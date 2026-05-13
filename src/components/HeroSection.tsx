@@ -15,10 +15,10 @@ const HeroSection = () => {
           {/* Content */}
           <div className="space-y-8">
             <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              IM COLOR Kinshasa - Peintres Professionnels
+              IM COLOR sarl - Peintres Professionnels
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              <strong>IM COLOR</strong>, leader de la <strong>peinture à Kinshasa</strong>. Nos <strong>peintres professionnels</strong> réalisent vos projets de peinture intérieure, extérieure, construction et rénovation. 
+              <strong>IM COLOR sarl</strong>, leader de la <strong>peinture à Kinshasa</strong>. Nos <strong>peintres professionnels</strong> réalisent vos projets de peinture intérieure, extérieure, construction et rénovation. 
               Excellence et qualité depuis plus de 10 ans.
             </p>
             
@@ -59,7 +59,7 @@ const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={heroInterior} 
-                alt="Salon moderne avec mur TV design par IM COLOR"
+                alt="Salon moderne avec mur TV design par IM COLOR sarl"
                 className="w-full h-auto object-cover"
               />
               

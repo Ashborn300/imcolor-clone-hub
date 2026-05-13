@@ -70,11 +70,11 @@ const RealizationsSection = () => {
             Portfolio
           </Badge>
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Réalisations IM COLOR - Projets de Peinture à Kinshasa
+            Réalisations IM COLOR sarl - Projets de Peinture à Kinshasa
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Découvrez les projets réalisés par nos <strong>peintres professionnels IM COLOR à Kinshasa</strong>. 
-            Chaque réalisation de <strong>peinture</strong> reflète notre engagement envers l'excellence et la qualité <strong>IM COLOR</strong>.
+            Découvrez les projets réalisés par nos <strong>peintres professionnels IM COLOR sarl à Kinshasa</strong>. 
+            Chaque réalisation de <strong>peinture</strong> reflète notre engagement envers l'excellence et la qualité <strong>IM COLOR sarl</strong>.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ const RealizationsSection = () => {
             >
               <img
                 src={realization.image}
-                alt={`Projet de peinture IM COLOR Kinshasa - Réalisation ${realization.id}`}
+                alt={`Projet de peinture IM COLOR sarl - Réalisation ${realization.id}`}
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110 rounded-lg"
               />
             </div>
@@ -96,10 +96,10 @@ const RealizationsSection = () => {
         {/* Section pour diriger vers les réseaux sociaux */}
         <div className="text-center mt-16 p-8 bg-gradient-to-r from-primary/10 via-secondary/10 to-primary/10 rounded-2xl">
           <h3 className="text-2xl font-bold text-foreground mb-4">
-            Plus de Réalisations Peinture IM COLOR Kinshasa
+            Plus de Réalisations Peinture IM COLOR sarl
           </h3>
           <p className="text-muted-foreground mb-6">
-            Découvrez encore plus de projets de <strong>peinture</strong> réalisés par <strong>IM COLOR Kinshasa</strong>. Suivez nos dernières réalisations et l'actualité de nos <strong>peintres professionnels</strong> sur nos réseaux sociaux.
+            Découvrez encore plus de projets de <strong>peinture</strong> réalisés par <strong>IM COLOR sarl</strong>. Suivez nos dernières réalisations et l'actualité de nos <strong>peintres professionnels</strong> sur nos réseaux sociaux.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a

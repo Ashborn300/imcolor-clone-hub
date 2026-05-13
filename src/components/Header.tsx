@@ -1,7 +1,7 @@
 import { Button } from './ui/button';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 import imColorLogo from '@/assets/im-color-logo.jpg';
 
 const Header = () => {

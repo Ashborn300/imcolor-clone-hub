@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Link } from '@tanstack/react-router';
 const Footer = () => {
   return <footer className="bg-imcolor-dark text-white py-16">
       <div className="container mx-auto px-4">

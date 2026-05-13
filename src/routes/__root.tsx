@@ -84,6 +84,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:locale", content: "fr_FR" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#F26B1F" },
+      { property: "og:title", content: "IM COLOR sarl — Peinture & décoration à Kinshasa" },
+      { name: "twitter:title", content: "IM COLOR sarl — Peinture & décoration à Kinshasa" },
+      { name: "description", content: "Imcolor Clone Hub imports and synchronizes a website from a GitHub repository, adapting it for TanStack Start." },
+      { property: "og:description", content: "Imcolor Clone Hub imports and synchronizes a website from a GitHub repository, adapting it for TanStack Start." },
+      { name: "twitter:description", content: "Imcolor Clone Hub imports and synchronizes a website from a GitHub repository, adapting it for TanStack Start." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eb659176-af1d-4b18-bfa4-12d7fb873a83/id-preview-188b11b6--3409d9b4-f8ff-461e-b925-f49fd90cb572.lovable.app-1778713877592.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eb659176-af1d-4b18-bfa4-12d7fb873a83/id-preview-188b11b6--3409d9b4-f8ff-461e-b925-f49fd90cb572.lovable.app-1778713877592.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

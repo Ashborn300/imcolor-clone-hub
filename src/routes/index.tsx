@@ -18,9 +18,9 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "IM COLOR — Éblouis votre espace" },
-      { name: "description", content: "IM COLOR : peinture, décoration et aménagement intérieur. Devis gratuit." },
-      { property: "og:title", content: "IM COLOR — Éblouis votre espace" },
+      { title: "IM COLOR sarl — Éblouis votre espace" },
+      { name: "description", content: "IM COLOR sarl : peinture, décoration et aménagement intérieur. Devis gratuit." },
+      { property: "og:title", content: "IM COLOR sarl — Éblouis votre espace" },
       { property: "og:description", content: "Peinture, décoration et aménagement intérieur professionnel." },
     ],
   }),

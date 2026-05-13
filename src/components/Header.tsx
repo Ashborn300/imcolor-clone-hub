@@ -15,13 +15,13 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <img 
               src={imColorLogo} 
-              alt="IM COLOR Logo" 
+              alt="IM COLOR sarl Logo" 
               className="h-16 w-auto"
               fetchPriority="high"
             />
             <div className="md:hidden">
               <p className="text-xs text-muted-foreground font-medium">
-                IM COLOR, éblouis votre espace
+                IM COLOR sarl, éblouis votre espace
               </p>
             </div>
           </div>

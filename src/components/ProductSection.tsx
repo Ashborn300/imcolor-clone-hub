@@ -14,9 +14,9 @@ const ProductSection = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Peinture IM COLOR - La Meilleure Qualité à Kinshasa</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Peinture IM COLOR sarl - La Meilleure Qualité à Kinshasa</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Découvrez notre gamme exclusive de <strong>peintures IM COLOR</strong> - la référence qualité de <strong>peinture à Kinshasa</strong> pour tous vos projets intérieurs et extérieurs. Produits utilisés par nos <strong>peintres professionnels</strong>.
+            Découvrez notre gamme exclusive de <strong>peintures IM COLOR sarl</strong> - la référence qualité de <strong>peinture à Kinshasa</strong> pour tous vos projets intérieurs et extérieurs. Produits utilisés par nos <strong>peintres professionnels</strong>.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const ProductSection = () => {
           {/* Product Info */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="text-3xl font-bold text-foreground">Peinture IM COLOR Kinshasa</h3>
+              <h3 className="text-3xl font-bold text-foreground">Peinture IM COLOR sarl</h3>
               <p className="text-xl text-primary font-semibold">Acrylique Mate Beige - 20L | Qualité Premium</p>
               
               {/* Rating */}
@@ -141,7 +141,7 @@ const ProductSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={paintBucketsImage} 
-                alt="Pots de peinture IM COLOR - Acrylique mate beige 20L"
+                alt="Pots de peinture IM COLOR sarl - Acrylique mate beige 20L"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -171,7 +171,7 @@ const ProductSection = () => {
         <div className="mt-16 bg-primary/5 rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-bold text-foreground mb-4">Profitez de notre offre spéciale !</h3>
           <p className="text-lg text-muted-foreground mb-6">
-            Achetez 3 pots de peinture IM COLOR et bénéficiez de 30% de réduction + livraison gratuite dans tout Kinshasa.
+            Achetez 3 pots de peinture IM COLOR sarl et bénéficiez de 30% de réduction + livraison gratuite dans tout Kinshasa.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/contact">
@@ -181,7 +181,7 @@ const ProductSection = () => {
             </a>
             <a href="/services">
               <Button variant="outline" className="btn-outline-orange">
-                Voir le catalogue peinture IM COLOR
+                Voir le catalogue peinture IM COLOR sarl
               </Button>
             </a>
           </div>

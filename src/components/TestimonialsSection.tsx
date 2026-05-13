@@ -6,7 +6,7 @@ const testimonials = [
     role: "Propriétaire",
     project: "Villa Moderne - Gombe",
     avatar: "MK",
-    content: "IM COLOR a dépassé toutes nos attentes. La qualité de finition est exceptionnelle et le respect des délais parfait. Je recommande vivement leurs services."
+    content: "IM COLOR sarl a dépassé toutes nos attentes. La qualité de finition est exceptionnelle et le respect des délais parfait. Je recommande vivement leurs services."
   },
   {
     name: "Jean-Baptiste Tshombe",
@@ -20,14 +20,14 @@ const testimonials = [
     role: "Architecte",
     project: "Résidence Familiale",
     avatar: "SM",
-    content: "La collaboration avec IM COLOR fut excellente. Leur expertise technique et leur écoute ont permis de concrétiser parfaitement nos plans architecturaux."
+    content: "La collaboration avec IM COLOR sarl fut excellente. Leur expertise technique et leur écoute ont permis de concrétiser parfaitement nos plans architecturaux."
   },
   {
     name: "André Kasongo",
     role: "Entrepreneur",
     project: "Complexe Industriel",
     avatar: "AK",
-    content: "IM COLOR allie professionnalisme et innovation. Leur approche moderne de la construction nous a permis d'optimiser nos investissements."
+    content: "IM COLOR sarl allie professionnalisme et innovation. Leur approche moderne de la construction nous a permis d'optimiser nos investissements."
   },
   {
     name: "Célestine Mbuyi",
@@ -41,14 +41,14 @@ const testimonials = [
     role: "Promoteur Immobilier",
     project: "Résidence Haut Standing",
     avatar: "PN",
-    content: "Partenaire de confiance pour tous nos projets. La qualité de leurs réalisations et leur respect des engagements font de IM COLOR un choix évident."
+    content: "Partenaire de confiance pour tous nos projets. La qualité de leurs réalisations et leur respect des engagements font de IM COLOR sarl un choix évident."
   },
   {
     name: "Grace Mbombo",
     role: "Médecin",
     project: "Clinique Privée",
     avatar: "GM",
-    content: "Construction d'une clinique moderne avec toutes les normes respectées. IM COLOR a su adapter le projet aux exigences médicales spécifiques."
+    content: "Construction d'une clinique moderne avec toutes les normes respectées. IM COLOR sarl a su adapter le projet aux exigences médicales spécifiques."
   },
   {
     name: "Robert Kimbembe",
@@ -62,7 +62,7 @@ const testimonials = [
     role: "Commerçante",
     project: "Boutique Moderne",
     avatar: "AD",
-    content: "Aménagement intérieur créatif et fonctionnel. IM COLOR a su créer un espace commercial attractif qui a boosté notre chiffre d'affaires."
+    content: "Aménagement intérieur créatif et fonctionnel. IM COLOR sarl a su créer un espace commercial attractif qui a boosté notre chiffre d'affaires."
   },
   {
     name: "David Mulumba",

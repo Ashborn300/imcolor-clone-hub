@@ -12,7 +12,7 @@ const VisionSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={workersSiteImage} 
-                alt="Vision IM COLOR - Équipe d'experts en peinture"
+                alt="Vision IM COLOR sarl - Équipe d'experts en peinture"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -21,9 +21,9 @@ const VisionSection = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-foreground">La Vision d'IM COLOR Kinshasa</h2>
+              <h2 className="text-4xl font-bold text-foreground">La Vision d'IM COLOR sarl</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Guidés par une vision créative et des valeurs fortes, <strong>IM COLOR</strong> et ses <strong>peintres professionnels</strong> œuvrent chaque jour pour colorer et transformer les espaces de <strong>Kinshasa</strong> avec passion et expertise.
+                Guidés par une vision créative et des valeurs fortes, <strong>IM COLOR sarl</strong> et ses <strong>peintres professionnels</strong> œuvrent chaque jour pour colorer et transformer les espaces de <strong>Kinshasa</strong> avec passion et expertise.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const VisionSection = () => {
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Notre Vision</h3>
                   <p className="text-muted-foreground">
-                    Devenir la référence incontournable de la <strong>peinture à Kinshasa</strong> et en RDC, en alliant créativité, qualité <strong>IM COLOR</strong> et innovation pour transformer chaque espace en œuvre d'art.
+                    Devenir la référence incontournable de la <strong>peinture à Kinshasa</strong> et en RDC, en alliant créativité, qualité <strong>IM COLOR sarl</strong> et innovation pour transformer chaque espace en œuvre d'art.
                   </p>
                 </div>
               </div>

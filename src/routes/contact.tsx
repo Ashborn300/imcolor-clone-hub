@@ -7,10 +7,10 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — IM COLOR" },
-      { name: "description", content: "Contactez IM COLOR pour un devis gratuit." },
-      { property: "og:title", content: "Contact — IM COLOR" },
-      { property: "og:description", content: "Contactez IM COLOR pour un devis gratuit." },
+      { title: "Contact — IM COLOR sarl" },
+      { name: "description", content: "Contactez IM COLOR sarl pour un devis gratuit." },
+      { property: "og:title", content: "Contact — IM COLOR sarl" },
+      { property: "og:description", content: "Contactez IM COLOR sarl pour un devis gratuit." },
     ],
   }),
   component: ContactPage,

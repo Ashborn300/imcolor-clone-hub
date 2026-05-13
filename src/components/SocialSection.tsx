@@ -10,7 +10,7 @@ const SocialSection = () => {
             Suivez-nous sur les réseaux sociaux
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Restez connectés avec IM COLOR pour découvrir nos derniers projets, conseils et actualités du secteur
+            Restez connectés avec IM COLOR sarl pour découvrir nos derniers projets, conseils et actualités du secteur
           </p>
         </div>
 

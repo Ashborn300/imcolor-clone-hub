@@ -4,15 +4,15 @@ import { Button } from './ui/button';
 
 const faqs = [
   {
-    question: "Quels types de projets IM COLOR réalise-t-elle ?",
-    answer: "IM COLOR réalise tous types de projets de construction : maisons individuelles, immeubles résidentiels et commerciaux, infrastructures publiques, travaux de rénovation, aménagement intérieur et extérieur, ainsi que des services spécialisés comme la plomberie, l'électricité et la climatisation."
+    question: "Quels types de projets IM COLOR sarl réalise-t-elle ?",
+    answer: "IM COLOR sarl réalise tous types de projets de construction : maisons individuelles, immeubles résidentiels et commerciaux, infrastructures publiques, travaux de rénovation, aménagement intérieur et extérieur, ainsi que des services spécialisés comme la plomberie, l'électricité et la climatisation."
   },
   {
     question: "Combien de temps faut-il pour réaliser un projet de construction ?",
     answer: "La durée dépend de la complexité et de la taille du projet. Une maison individuelle prend généralement 6-12 mois, un immeuble 12-24 mois, et les travaux de rénovation 1-6 mois. Nous établissons un planning détaillé lors de l'étude de faisabilité et nous nous engageons à respecter les délais convenus."
   },
   {
-    question: "Comment IM COLOR garantit-elle la qualité de ses constructions ?",
+    question: "Comment IM COLOR sarl garantit-elle la qualité de ses constructions ?",
     answer: "Nous utilisons uniquement des matériaux de première qualité, respectons les normes internationales de construction, effectuons des contrôles qualité à chaque étape, et offrons une garantie sur tous nos travaux. Notre équipe est composée de professionnels qualifiés et expérimentés."
   },
   {
@@ -20,19 +20,19 @@ const faqs = [
     answer: "Oui, nous proposons des solutions de paiement flexibles adaptées à votre budget. Nous pouvons établir un échéancier de paiement en fonction de l'avancement des travaux et vous mettre en relation avec nos partenaires financiers si nécessaire."
   },
   {
-    question: "IM COLOR s'occupe-t-elle des démarches administratives ?",
+    question: "IM COLOR sarl s'occupe-t-elle des démarches administratives ?",
     answer: "Absolument ! Nous nous occupons de toutes les démarches administratives : permis de construire, autorisations nécessaires, déclarations auprès des services municipaux, et nous vous assistons dans toutes les procédures légales liées à votre projet."
   },
   {
-    question: "Quels sont les matériaux utilisés par IM COLOR ?",
+    question: "Quels sont les matériaux utilisés par IM COLOR sarl ?",
     answer: "Nous sélectionnons rigoureusement nos matériaux auprès de fournisseurs reconnus. Nous utilisons du ciment de qualité supérieure, des fers à béton certifiés, des peintures résistantes au climat tropical, et tous les matériaux respectent les normes de construction en vigueur."
   },
   {
-    question: "Peut-on visiter des réalisations de IM COLOR ?",
+    question: "Peut-on visiter des réalisations de IM COLOR sarl ?",
     answer: "Bien sûr ! Nous organisons régulièrement des visites de nos réalisations pour nos clients potentiels. Contactez-nous pour programmer une visite de nos projets récents et constater la qualité de notre travail par vous-même."
   },
   {
-    question: "IM COLOR propose-t-elle un service après-vente ?",
+    question: "IM COLOR sarl propose-t-elle un service après-vente ?",
     answer: "Oui, nous offrons un service après-vente complet avec une garantie sur tous nos travaux. Notre équipe reste disponible pour toute intervention, maintenance ou réparation nécessaire. Nous assurons également un suivi régulier de nos réalisations."
   },
   {
@@ -40,7 +40,7 @@ const faqs = [
     answer: "C'est très simple ! Contactez-nous par téléphone, email ou via notre formulaire en ligne. Nous programmons une visite gratuite pour étudier votre projet, puis nous vous remettons un devis détaillé sous 48h. Le devis est entièrement gratuit et sans engagement."
   },
   {
-    question: "IM COLOR travaille-t-elle en dehors de Kinshasa ?",
+    question: "IM COLOR sarl travaille-t-elle en dehors de Kinshasa ?",
     answer: "Oui, bien que basés à Kinshasa, nous intervenons dans toute la République Démocratique du Congo. Pour les projets en province, nous adaptons notre organisation logistique et nos équipes selon les besoins spécifiques de chaque région."
   }
 ];

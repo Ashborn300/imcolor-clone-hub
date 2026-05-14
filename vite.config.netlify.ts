@@ -7,7 +7,25 @@
 //
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
+// Base URL configurable pour gérer les déploiements en sous-dossier.
+// Par défaut "/" (racine de domaine, cas Netlify standard).
+// Pour déployer dans un sous-dossier, définir BASE_URL="/mon-sous-dossier/" au build.
+const BASE_URL = process.env.BASE_URL ?? "/";
+
 export default defineConfig({
+  base: BASE_URL,
+  vite: {
+    base: BASE_URL,
+    experimental: {
+      renderBuiltUrl(filename) {
+        // Garantit des chemins absolus depuis la racine pour les assets,
+        // ce qui évite les 404 lors du chargement depuis des routes profondes.
+        return BASE_URL.endsWith("/")
+          ? `${BASE_URL}${filename}`
+          : `${BASE_URL}/${filename}`;
+      },
+    },
+  },
   cloudflare: false,
   tanstackStart: {
     prerender: {

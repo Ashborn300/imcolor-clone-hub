@@ -41,10 +41,12 @@ app.disable("x-powered-by");
 app.use(compression());
 
 // Sert les assets statiques en lecture publique (corrige les 403 dus aux permissions).
+// `redirect: false` évite les 301 /about → /about/ qui peuvent casser sur le proxy Hostinger.
 app.use(
   express.static(distDir, {
     index: "index.html",
     extensions: ["html"],
+    redirect: false,
     maxAge: "1h",
     setHeaders: (res, filePath) => {
       // Cache long pour les assets versionnés (avec hash dans le nom).

@@ -41,10 +41,12 @@ app.disable("x-powered-by");
 app.use(compression());
 
 // Sert les assets statiques en lecture publique (corrige les 403 dus aux permissions).
+// `redirect: false` évite les 301 /about → /about/ qui peuvent casser sur le proxy Hostinger.
 app.use(
   express.static(distDir, {
     index: "index.html",
     extensions: ["html"],
+    redirect: false,
     maxAge: "1h",
     setHeaders: (res, filePath) => {
       // Cache long pour les assets versionnés (avec hash dans le nom).
@@ -55,10 +57,23 @@ app.use(
   }),
 );
 
-// SPA fallback — toutes les routes non statiques renvoient index.html.
-// Express 5 utilise des regex pour les wildcards : /.*/ couvre tout sauf les fichiers déjà servis ci-dessus.
+// Fallback : on tente d'abord <route>/index.html (prerender TanStack),
+// puis on retombe sur la home index.html (SPA hydration).
 app.get(/.*/, (req, res, next) => {
   if (req.method !== "GET") return next();
+
+  // Nettoie le pathname (retire les .. et les query strings)
+  const cleanPath = req.path.replace(/\/+$/, "").replace(/\.\./g, "");
+  const candidate = path.join(distDir, cleanPath, "index.html");
+
+  // Vérifie que le candidat est bien dans distDir (sécurité)
+  if (candidate.startsWith(distDir) && fs.existsSync(candidate)) {
+    return res.sendFile(candidate, (err) => {
+      if (err) next(err);
+    });
+  }
+
+  // Sinon : SPA fallback vers la home prérendue
   res.sendFile(indexHtml, (err) => {
     if (err) next(err);
   });
